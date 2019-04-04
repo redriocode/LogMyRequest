@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="1" name="LogMyRequest">
+    <Basepaths>/logmyrequest</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1554356938246</CreatedAt>
+    <CreatedBy>alfredk.j@gmail.com</CreatedBy>
+    <Description>Proxy which logs the important metrics to syslog</Description>
+    <DisplayName>LogMyRequest</DisplayName>
+    <LastModifiedAt>1554359549941</LastModifiedAt>
+    <LastModifiedBy>alfredk.j@gmail.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:f025e27774e17d95a4fc030f424e06128b32aa8523c158d2a9077cca416f6d43760cfc52662ba0664debca9ed59e1abb0fa2be67313909be5caf47a211af35ba</ManifestVersion>
+    <Policies>
+        <Policy>ML-LogAll</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources/>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>

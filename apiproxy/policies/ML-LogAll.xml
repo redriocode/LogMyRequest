@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<MessageLogging async="false" continueOnError="true" enabled="true" name="ML-LogAll">
+    <DisplayName>ML-LogAll</DisplayName>
+    <Syslog>
+        <Message>[63ff2ddd-52ec-4f33-8cf6-8079c2fcebd7@41058 tag="org: {organization.name},env: {environment.name}"] 
+        Time : {system.time}
+        Proxy: {apiproxy.name}
+        ProxyPath: {proxy.basepath}
+        Response Status: {message.status.code}
+        Response Desc: {message.reason.phrase}
+        </Message>
+        <Host>logs-01.loggly.com</Host>
+        <Port>514</Port>
+    </Syslog>
+</MessageLogging>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="ML-LogAll" version="SHA-512:67e161d236c40165061ddfd9c3cda7dcbe69ff24045a36ccdd26c6eff455b50b5b1c9fdf611c6e6af4b343d4ebb53ac3cbd3d0bd80b57c320dee13623fb4eab3"/>
+    </Policies>
+    <ProxyEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:e71e25a0e8f40a5f55fc457e0c943aa1dba5d20546c218153a2b79f5ae77f3719497229882fa3cec692a93e0aca58c7b56f39f74bec62f249640f8977571410a"/>
+    </ProxyEndpoints>
+    <Resources/>
+    <SharedFlows/>
+    <TargetEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:1a3a89ebc6e0e97a90fb89a569613bf30912b7ab73f3553013b22906638437c463a5bd3005404e5071ab3daf68397fb93119c0ae3f92646262231f31d7d6f88b"/>
+    </TargetEndpoints>
+</Manifest>
